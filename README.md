@@ -172,7 +172,12 @@ In other words, Github Desktop is mostly suitable as a beginner tool, and moving
 
 ### Project
 
-This project is very simple. You will fork this repository, clone it to your machine, create a new branch, make a change, commit that change, push the change, and finally make a pull request into the master branch of the main repository. To get started, download [Github Desktop](https://desktop.github.com/).
+This project is very simple. You will fork this repository, clone it to your machine, create a new branch, make a change, commit that change, push the change, and finally make a pull request into the master branch of the main repository. 
+
+#### Prerequisites
+
+- [Github Account](https://github.com/join)
+- [Github Desktop](https://desktop.github.com/)
 
 #### 1. Clone the repository
 

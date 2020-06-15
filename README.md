@@ -2,6 +2,26 @@
 
 This is a simple, guided tutorial intended to be a simple introduction to Git. While other tutorials may concentrate on terminal commands and Git objects, this guide sticks to the basics. In this tutorial, we will go through an introduction to Git and version control, a breakdown of how to use Git, and a sample project with Github Desktop to demonstrate the practical usage of Git. If you have no experience, don't worry! This tutorial assumes no knowledge of the CLI or programming. Enjoy!
 
+### Table of Contents
+- **[Introduction](#introduction)**
+    - **[What is Git?](#what-is-git)**
+    - **[Git vs. Github](#git-vs-github)**
+- **[Using Git](#using-git)**
+    - **[What is a Git Repository?](#what-is-a-git-repository)**
+    - **[Git Commands](#git-commands)**
+        - **[git init](#git-init)**
+        - **[git clone](#git-clone)**
+        - **[git add](#git-add)**
+        - **[git commit](git-commit)**
+        - **[git fetch](git-fetch)**
+        - **[git pull](git-pull)**
+        - **[git push](git-push)**
+        - **[git branch](git-branch)**
+        - **[.gitignore](.gitignore)**
+- **[Git Project with Github Desktop](#git-project-with-github-desktop)**
+    - **[Github Desktop](#github-desktop)**
+    - **[Project](#project)**
+
 ---
 
 ## Introduction

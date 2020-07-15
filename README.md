@@ -224,3 +224,5 @@ You should see a prompt that says `Push commits to the origin remote`. Either cl
 Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository (The-Kid-Gid/learn-git). Github Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the Github website, where you can title, describe, and file your PR.
 
 Congratulations! You now have a basic understanding of Git. Keep in mind that Github Desktop is not a tool oriented towards more advanced workflows, and if you find yourself being limited by it your best option is to learn the Git CLI. Some of the best resources for doing so are the free [Pro Git](https://git-scm.com/book/en/v2) book hosted on git-scm.com and [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) by Atlassian.
+
+If you liked this tutorial please star the repository!

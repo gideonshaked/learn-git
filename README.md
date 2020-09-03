@@ -74,7 +74,7 @@ The important thing to remember is that **Git is not the same as Github**, and G
 
 ### What is a Git Repository?
 
-A Git repository is a folder containing all of the files pertaining to a project. Generally, the idea is that Git tracks the version history every file in that folder (excluding those specified in a `.gitignore` - this will come later). The data of a Git repository is stored in a subfolder named `.git` in the repository folder.
+A Git repository is a folder containing all of the files pertaining to a project. Generally, the idea is that Git tracks the version history of every file in that folder (excluding those specified in a `.gitignore` - this will come later). The data of a Git repository is stored in a subfolder named `.git` in the repository folder.
 
 A Git repository can either exist solely locally (on your computer) or it can have a remote. A remote repository is version of the project that is hosted on the internet. By having a remote (an example being a repository on Github) multiple people working on a repository can agree on a common version of that repository. In most cases, everyone working on a project uses the same remote. The basic workflow is as follows:
 

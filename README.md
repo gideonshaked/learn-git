@@ -12,12 +12,12 @@ This is a simple, guided tutorial intended to be a simple introduction to Git. W
         - **[git init](#git-init)**
         - **[git clone](#git-clone)**
         - **[git add](#git-add)**
-        - **[git commit](git-commit)**
-        - **[git fetch](git-fetch)**
-        - **[git pull](git-pull)**
-        - **[git push](git-push)**
-        - **[git branch](git-branch)**
-        - **[.gitignore](.gitignore)**
+        - **[git commit](#git-commit)**
+        - **[git fetch](#git-fetch)**
+        - **[git pull](#git-pull)**
+        - **[git push](#git-push)**
+        - **[git branch](#git-branch)**
+        - **[.gitignore](#gitignore)**
 - **[Git Project with Github Desktop](#git-project-with-github-desktop)**
     - **[Github Desktop](#github-desktop)**
     - **[Project](#project)**

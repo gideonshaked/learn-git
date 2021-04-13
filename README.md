@@ -2,7 +2,8 @@
 
 This is a simple, guided tutorial intended to be a simple introduction to Git. While other tutorials may concentrate on terminal commands and Git objects, this guide sticks to the basics. In this tutorial, we will go through an introduction to Git and version control, a breakdown of how to use Git, and a sample project with Github Desktop to demonstrate the practical usage of Git. If you have no experience, don't worry! This tutorial assumes no knowledge of the CLI or programming. Enjoy!
 
-### Table of Contents
+## Table of Contents
+
 - **[Introduction](#introduction)**
     - **[What is Git?](#what-is-git)**
     - **[Git vs. Github](#git-vs-github)**
@@ -90,7 +91,6 @@ Conflicts usually are mitigated through several strategies, but that is beyond t
 
 The following are the most commonly used commands in Git. The term 'commands' is used because Git is traditionally a command line tool; instead of clicking a button to create a repository a programmer would type `git init`. However, this tutorial covers using Git with Github Desktop, a GUI for Git. As such, the names of the textual commands will be used, but their meanings will also be explained so they make sense with any way of interacting with Git.
 
-
 #### git init
 
 **CLI:** `git init`
@@ -99,7 +99,6 @@ The following are the most commonly used commands in Git. The term 'commands' is
 
 **What does it do?**
 The `git init` command reates a new repository in the current directory (or directory specified in the Github Desktop GUI). Essentially, all that is happening is a `.git` directory is created and put in the directory specified. The existing files in the directory are not affected.
-
 
 #### git clone
 
@@ -110,7 +109,6 @@ The `git init` command reates a new repository in the current directory (or dire
 **What does it do?**
 The `git clone` command is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible by supported protocols. The `git clone` command copies an existing Git repository.
 
-
 #### git add
 
 **CLI:** `git add <pathspec>`
@@ -119,7 +117,6 @@ The `git clone` command is primarily used to point to an existing repo and make 
 
 **What does it do?**
 The `git add` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, `git add` doesn't really affect the repository in any significant way—changes are not actually recorded until you run `git commit`.
-
 
 #### git commit
 
@@ -130,7 +127,6 @@ The `git add` command adds a change in the working directory to the staging area
 **What does it do?**
 The `git commit` command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of `git commit`, The `git add` command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands `git commit` and `git add` are two of the most frequently used.
 
-
 #### git fetch
 
 **CLI:** `git fetch`
@@ -139,7 +135,6 @@ The `git commit` command captures a snapshot of the project's currently staged c
 
 **What does it do?**
 The `git fetch` command downloads commits, files, and refs from a remote repository into your local repo. Basically, it retrieves the latest changes from a remote without changing the local copy.
-
 
 #### git pull
 
@@ -150,7 +145,6 @@ The `git fetch` command downloads commits, files, and refs from a remote reposit
 **What does it do?**
 The `git pull` command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
 
-
 #### git push
 
 **CLI:** `git push`
@@ -159,7 +153,6 @@ The `git pull` command is used to fetch and download content from a remote repos
 
 **What does it do?**
 The `git push` command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
-
 
 #### git branch
 
@@ -170,7 +163,6 @@ The `git push` command is used to upload local repository content to a remote re
 **What does it do?**
 A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 The `git branch` command lets you create, list, rename, and delete branches.
-
 
 #### .gitignore
 
@@ -192,7 +184,7 @@ In other words, Github Desktop is mostly suitable as a beginner tool, and moving
 
 ### Project
 
-This project is very simple. You will fork this repository, clone it to your machine, create a new branch, make a change, commit that change, push the change, and finally make a pull request into the master branch of the main repository. 
+This project is very simple. You will fork this repository, clone it to your machine, create a new branch, make a change, commit that change, push the change, and finally make a pull request into the master branch of the main repository.
 
 #### Prerequisites
 

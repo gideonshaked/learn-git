@@ -45,9 +45,11 @@ Modern VCSs also let you easily (and often automatically) answer questions like:
 - When was this particular line of this particular file edited? By whom? Why was it   edited?
 - Over the last 1000 revisions, when/why did a particular test stop working?
 
-While other VCSs exist, Git is the de facto standard for version control. [This XKCD comic](https://xkcd.com/1597/) captures Git’s reputation:
+While other VCSs exist, Git is the de facto standard for version control. [This XKCD comic](https://xkcd.com/1597/) captures Git’s reputation
 
-![](https://imgs.xkcd.com/comics/git_2x.png)
+<div align="center">
+<img src="https://imgs.xkcd.com/comics/git.png" alt="XKCD comic">
+</div>
 
 The above was sourced from [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/2020/version-control/).
 

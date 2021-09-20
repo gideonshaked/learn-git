@@ -224,63 +224,63 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
     - [Git for Windows](https://gitforwindows.org) (recommended if you are on Windows)
     - [Vanilla Git](https://git-scm.com/downloads)
 
-#### 1. Fork the repository
+1. Fork the repository
 
-Go to this repository's [home page](github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
+    Go to this repository's [home page](github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
 
-#### 2. Clone the repository
+2. Clone the repository
 
-Clone this repository by selecting `URL` in the pop up window and entering `<mygithubusername>/learn-git`.
+    Clone this repository by selecting `URL` in the pop up window and entering `<mygithubusername>/learn-git`.
 
-***or***
+    ***or***
 
-```shell
-git clone https://github.com/<mygithubusername>/learn-git
-```
+    ```shell
+    git clone https://github.com/<mygithubusername>/learn-git
+    ```
 
-#### 3. Create a new branch
+3. Create a new branch
 
-Create a new branch named `<mygithubusernamename-contributed>` and select the option `Publish your branch`.
+    Create a new branch named `<mygithubusernamename-contributed>` and select the option `Publish your branch`.
 
-***or***
+    ***or***
 
-```shell
-# Option 1
-git branch <mygithubusername-contributed>
-git checkout <mygithubusername-contributed>
+    ```shell
+    # Option 1
+    git branch <mygithubusername-contributed>
+    git checkout <mygithubusername-contributed>
 
-# Option 2
-git checkout -b <mygithubusername-contributed>
-```
+    # Option 2
+    git checkout -b <mygithubusername-contributed>
+    ```
 
-#### 4. Make your change
+4. Make your change
 
-Create a new file called `<mygithubusername>-contributed.txt` in the `contributors` directory.
+    Create a new file called `<mygithubusername>-contributed.txt` in the `contributors` directory.
 
-#### 5. Commit your change
+5. Commit your change
 
-Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to myname_rewrite`.
+    Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to myname_rewrite`.
 
-***or***
+    ***or***
 
-```shell
-git add .
-git commit -m "<your commit title>"
-```
+    ```shell
+    git add .
+    git commit -m "<your commit title>"
+    ```
 
-#### 6. Push your change
+6. Push your change
 
-You should see a prompt that says `Push commits to the origin remote`. Either click the button labelled `Push origin` next to it or push some other way.
+    You should see a prompt that says `Push commits to the origin remote`. Either click the button labelled `Push origin` next to it or push some other way.
 
-***or***
+    ***or***
 
-```shell
-git push
-```
+    ```shell
+    git push
+    ```
 
-#### 7. Create a pull request
+7. Create a pull request
 
-Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository (not-stirred/learn-git). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
+    Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository (not-stirred/learn-git). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
 
 ---
 

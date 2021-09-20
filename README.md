@@ -226,38 +226,34 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 #### Steps
 
-1. Fork the repository
+1. Clone the repository
 
-    Go to this repository's [home page](https://github.com/rept-org/learn-git) and on the upper right corner click `Fork`.
-
-2. Clone the repository
-
-    Clone this repository by selecting `URL` in the pop up window and entering `<mygithubusername>/learn-git`.
+    Clone this repository by selecting `URL` in the pop up window and entering `rept-org/learn-git`.
 
     ***or***
 
     ```shell
-    git clone https://github.com/<mygithubusername>/learn-git
+    git clone https://github.com/rept-org/learn-git
     ```
 
-3. Create a new branch
+2. Create a new branch
 
-    Create a new branch named `<mygithubusernamename-contributed>` and select the option `Publish your branch`.
+    Create a new branch named `<my github username>` and select the option `Publish your branch`.
 
     ***or***
 
     ```shell
     # Option 1
-    git branch <mygithubusername-contributed>
-    git checkout <mygithubusername-contributed>
+    git branch <my github username>
+    git checkout <my github username>
 
     # Option 2
-    git checkout -b <mygithubusername-contributed>
+    git checkout -b <my github username>
     ```
 
 4. Make your change
 
-    Create a new file called `<mygithubusername>.html` in the `contributors` directory.
+    Create a new file called `<my github username>.html` in the `contributors` directory.
 
     Add the following text to it and put in your name and message:
 
@@ -273,13 +269,13 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 5. Commit your change
 
-    Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to <mygithubusername-contributed>`.
+    Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to <my github username>`.
 
     ***or***
 
     ```shell
     git add .
-    git commit -m "<your commit title>"
+    git commit -m "Add <my github username> page"
     ```
 
 6. Push your change
@@ -294,7 +290,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 7. Create a pull request
 
-    Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository ([rept-org/learn-git](https://github.com/rept-org/learn-git)). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
+    Now you have your own version of the learn-git repository, but you need to merge your changes from your branch (`<my github username>`) to the base branch (`master`). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
     
     When your PR is merged, check `https://rept-org.github.io/learn-git/contributors/<mygithubusername>`!
 

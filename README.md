@@ -257,7 +257,19 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 4. Make your change
 
-    Create a new file called `<mygithubusername>-contributed.txt` in the `contributors` directory and add a message.
+    Create a new file called `<mygithubusername>.html` in the `contributors` directory.
+
+    Add the following text to it and put in your name and message:
+
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <body>
+        <h1>Your Name Here</h1>
+        <p>Your Message Here</p>
+    </body>
+    </html>
+    ```
 
 5. Commit your change
 
@@ -283,6 +295,8 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 7. Create a pull request
 
     Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository ([rept-org/learn-git](https://github.com/rept-org/learn-git)). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
+    
+    When your PR is merged, check `https://rept-org.github.io/learn-git/contributors/<mygithubusername>`!
 
 ---
 

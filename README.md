@@ -259,7 +259,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 5. Commit your change
 
-    Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to myname_rewrite`.
+    Now, on the left side of GitHub Desktop, you should see `1 changed file` above the path to the new file. Under that, title your commit, optionally add a description, and click `Commit to <mygithubusername-contributed>`.
 
     ***or***
 

@@ -226,7 +226,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 1. Fork the repository
 
-    Go to this repository's [home page](github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
+    Go to this repository's [home page](https://github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
 
 2. Clone the repository
 

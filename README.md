@@ -224,6 +224,8 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
     - [Git for Windows](https://gitforwindows.org) (recommended if you are on Windows)
     - [Vanilla Git](https://git-scm.com/downloads)
 
+#### Steps
+
 1. Fork the repository
 
     Go to this repository's [home page](https://github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
@@ -255,7 +257,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 4. Make your change
 
-    Create a new file called `<mygithubusername>-contributed.txt` in the `contributors` directory.
+    Create a new file called `<mygithubusername>-contributed.txt` in the `contributors` directory and add a message.
 
 5. Commit your change
 

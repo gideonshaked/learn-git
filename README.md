@@ -260,10 +260,15 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
     ```html
     <!DOCTYPE html>
     <html>
+
     <body>
+
         <h1>Your Name Here</h1>
+
         <p>Your Message Here</p>
+
     </body>
+
     </html>
     ```
 

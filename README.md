@@ -1,6 +1,6 @@
 # Learn Git the Easy Way
 
-This is a simple, guided tutorial intended to be a simple introduction to Git. 
+This is a guided tutorial intended to be a simple introduction to Git. 
 While other tutorials may concentrate on terminal commands and Git objects, this guide sticks to the basics. 
 In this tutorial, we will go through an introduction to Git and version control, a breakdown of how to use Git, and a sample project with GitHub Desktop or the command line interface (CLI) to demonstrate practical usage of Git. 
 If you have no experience, don't worry! This tutorial assumes no knowledge of the CLI or programming. Enjoy!

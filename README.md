@@ -228,7 +228,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 1. Fork the repository
 
-    Go to this repository's [home page](https://github.com/not-stirred/learn-git) and on the upper right corner click `Fork`.
+    Go to this repository's [home page](https://github.com/gideonshaked/learn-git) and on the upper right corner click `Fork`.
 
 2. Clone the repository
 
@@ -282,7 +282,7 @@ It's just an example of the basic Git workflow described in [What is a Git Repos
 
 7. Create a pull request
 
-    Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository (not-stirred/learn-git). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
+    Now you have your own version of the learn-git repository, but you need to merge your changes from the head repository (your fork) to the base repository (gideonshaked/learn-git). GitHub Desktop has a handy way to do this by just clicking `Create Pull Request`. Once you do so it will take you to the GitHub website, where you can title, describe, and file your PR.
 
 ---
 
